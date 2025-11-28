@@ -1,8 +1,8 @@
-###Apk Inventaris Toko Kelontong
+### Apk Inventaris Toko Kelontong
 
 Aplikasi backend sederhana yang dibuat untuk mengelola data inventaris produk di toko kelontong. Proyek ini memenuhi persyaratan Final Project yang meliputi implementasi Arsitektur Modular, operasi CRUD, Dynamic Routing (Path & Query Parameter), serta Error Handling menggunakan Node.js dan Express.js.
 
-###Teknologi yang Digunakan
+### Teknologi yang Digunakan
 
 Komponen
 
@@ -24,7 +24,7 @@ Testing
 
 Postman
 
-###Instalasi dan Menjalankan Server
+### Instalasi dan Menjalankan Server
 
 Ikuti langkah-langkah berikut untuk menjalankan aplikasi ini secara lokal:
 
@@ -46,7 +46,7 @@ node app.js
 Akses:
 Server akan berjalan di http://localhost:3000.
 
-###Daftar Endpoint API (CRUD & Dynamic Routing)
+### Daftar Endpoint API (CRUD & Dynamic Routing)
 
 Semua endpoint menggunakan base URL http://localhost:3000/products. Gunakan Postman atau alat testing API lainnya untuk berinteraksi.
 
@@ -120,7 +120,7 @@ Menghapus produk dari inventaris berdasarkan ID.
 
 DELETE & Path Parameter
 
-###Contoh Body untuk Request POST/PUT
+### Contoh Body untuk Request POST/PUT
 
 Saat menggunakan POST (untuk membuat) atau PUT (untuk memperbarui) di Postman, atur header Content-Type: application/json dan kirimkan data dengan format:
 
