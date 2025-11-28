@@ -29,7 +29,7 @@ Postman
 Ikuti langkah-langkah berikut untuk menjalankan aplikasi ini secara lokal:
 
 Clone Repository:
-(Asumsikan link repositori GitHub sudah ada di sini)
+(https://github.com/mfaatihyusron/inventaris-toko-kelontong.git)
 
 Instalasi Dependencies:
 Buka terminal di dalam folder proyek (inventaris-toko-kelontong), lalu jalankan:
