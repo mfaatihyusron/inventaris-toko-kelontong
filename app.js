@@ -1,9 +1,11 @@
 // app.js
 import express from 'express';
-import productRoutes from './routes/productRoutes.js';
+// Import tanpa kurung kurawal, karena di routes/productRoutes.js kita pakai export default
+import productRoutes from './routes/productRoutes.js'; 
 
 const app = express();
-const PORT = 3000;
+// PORT diubah dari 3000 ke 5000 untuk menghindari bentrok dengan Grafana
+const PORT = 5000;
 
 // Middleware agar bisa baca JSON dari body request
 app.use(express.json());
