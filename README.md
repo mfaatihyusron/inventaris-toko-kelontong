@@ -32,7 +32,7 @@ node app.js
 
 
 Akses:
-Server akan berjalan di http://localhost:3000.
+Server akan berjalan di http://localhost:5000.
 
 ### Daftar Endpoint API (CRUD & Dynamic Routing)
 
