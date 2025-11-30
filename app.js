@@ -10,7 +10,16 @@ const PORT = 5000;
 // Middleware agar bisa baca JSON dari body request
 app.use(express.json());
 
-// Menggunakan Routes
+// 1. Tambahkan route GET / untuk mengatasi Cannot GET /
+app.get('/', (req, res) => {
+    // Memberikan pesan sederhana sebagai sambutan di halaman utama
+    res.status(200).send({
+        message: "Selamat datang di API Inventaris Toko Kelontong!",
+        instructions: "Akses endpoint data di: /products"
+    });
+});
+
+// 2. Menggunakan Routes untuk /products
 app.use('/products', productRoutes);
 
 // Jalankan Server
