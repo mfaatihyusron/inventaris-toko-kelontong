@@ -4,25 +4,13 @@ Aplikasi backend sederhana yang dibuat untuk mengelola data inventaris produk di
 
 ###Teknologi yang Digunakan
 
-Komponen
+Runtime = Node.js
 
-Nama
+Framework = Express.js
 
-Runtime
+Database = Array of Object (In-Memory)
 
-Node.js
-
-Framework
-
-Express.js
-
-Database
-
-Array of Object (In-Memory)
-
-Testing
-
-Postman
+Testing = Postman
 
 ###Instalasi dan Menjalankan Server
 
